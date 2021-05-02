@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MyStudy</string>
+    <string name="gestures">Gestures</string>
+    <string name="lessons">Lessons</string>
+    <string name="main_text">KOTLIN(занятия 33-40)</string>
+    <string name="text1"> Hello</string>
+    <string name="text2"></string>
+</resources>
