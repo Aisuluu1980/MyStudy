@@ -9,6 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MyStudy">
+        <activity android:name=".FragmentActivity"></activity>
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -16,25 +17,26 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".LessonActivity"
-            android:parentActivityName=".MainActivity">
-        </activity>
-        <activity android:name=".ActivityA"
-            android:parentActivityName=".LessonActivity"
-            android:launchMode="singleTask"/>
-        <activity android:name=".ActivityB"
-            android:parentActivityName=".LessonActivity"/>
-
-        <activity android:name=".ActivityC"
-            android:parentActivityName=".LessonActivity"/>
+        <activity
+            android:name=".LessonActivity"
+            android:parentActivityName=".MainActivity"></activity>
+        <activity
+            android:name=".ActivityA"
+            android:launchMode="singleTask"
+            android:parentActivityName=".LessonActivity" />
+        <activity
+            android:name=".ActivityB"
+            android:parentActivityName=".LessonActivity" />
+        <activity
+            android:name=".ActivityC"
+            android:parentActivityName=".LessonActivity" />
         <activity
             android:name=".GesturesActivity"
             android:parentActivityName=".MainActivity" />
-        <activity android:name=".ActivityD"
-            android:parentActivityName=".LessonActivity"
-            android:launchMode="singleTop">
-        </activity>
-
+        <activity
+            android:name=".ActivityD"
+            android:launchMode="singleTop"
+            android:parentActivityName=".LessonActivity"></activity>
     </application>
 
 </manifest>
