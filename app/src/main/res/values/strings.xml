@@ -5,4 +5,24 @@
     <string name="main_text">KOTLIN(занятия 33-40)</string>
     <string name="text1"> Hello</string>
     <string name="text2"></string>
+    <string name="activ_a">Activity A</string>
+    <string name="btn_a">Start B</string>
+    <string name="activ_b">Activity B</string>
+    <string name="btn_b">Start C</string>
+    <string name="activ_c">Activity C</string>
+    <string name="btn_c">Start D</string>
+    <string name="activ_d">Activity D</string>
+    <string name="btn_d">Start A</string>
+
+    <string name="lesson_text">Занятие</string>
+    <string name="btn_34">Занятие №34 Activity Stack</string>
+    <string name="btn_start_d">Start D</string>
+    <string name="btn_start_c">Start C</string>
+    <string name="text_launch_top">Если в файле Anfroid Manifest указать launchMode=singleTop для activity D,
+        то он будет открывать этот активити только один раз, то есть если пользователь будет нажимать несколько раз
+        по кнопке "Start D" он откроет его один раз и не будет создавать несколько Instance(копий),
+        как если бы я вообще не указывала launchMode, при условии что активити D находится
+        в самом верху стека.
+    Если указать в активити A launchMode=singleTask, тогда при нажатии из активити D на Start A,
+        он удалит все стеки B, C, D, так как у нас уже есть стек А, он его не будет переносит поверх всех стеков. </string>
 </resources>
