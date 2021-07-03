@@ -26,4 +26,17 @@
     Если указать в активити A launchMode=singleTask, тогда при нажатии из активити D на Start A,
         он удалит все стеки B, C, D, так как у нас уже есть стек А, он его не будет переносит поверх всех стеков. </string>
     <string name="btn_36">Занятие №36 Fragments</string>
+    <string name="poster">Задание№32 Poster</string>
+    <string name="movie_title">Миллиарды(Billions)</string>
+    <string name="director_label">Режиссер</string>
+    <string name="director">Джеймс Фоули</string>
+    <string name="movie_short_description">Современный мир - это непредсказуемая субстанция. Никто не знает, кто чем управляет и кто что решает. В центре внимания сюжета сериала \"Миллиарды\" оказывается противостояние двух выдающихся личностей.</string>
+    <string name="actor_1">Дэмиэн Льюис</string>
+    <string name="actor_2">Пол Джаматти</string>
+    <string name="actor_3">Мэгги Сифф</string>
+    <string name="actor_4">Дэвид Костабайл</string>
+    <string name="actors_labels">Актеры</string>
+    <string name="like">Like</string>
+    <string name="watch">Watch</string>
+    <string name="share">Share</string>
 </resources>

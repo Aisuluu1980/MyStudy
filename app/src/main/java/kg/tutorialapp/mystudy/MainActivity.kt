@@ -1,3 +1,4 @@
+
 package kg.tutorialapp.mystudy
 
 import android.content.Intent
@@ -11,6 +12,7 @@ class MainActivity : AppCompatActivity() {
     lateinit var btnGestures: Button
     lateinit var textMain: TextView
     lateinit var btnLessons:Button
+    lateinit var btnPoster: Button
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -18,6 +20,7 @@ class MainActivity : AppCompatActivity() {
 
         lessonsRun()
         gesturesRun()
+        posterRun()
 
         textMain = findViewById(R.id.text_main)
         textMain.text = getString(R.string.main_text)
@@ -35,6 +38,13 @@ class MainActivity : AppCompatActivity() {
     btnGestures.setOnClickListener{
             val gesturesIntent = Intent(this, GesturesActivity::class.java)
             startActivity(gesturesIntent)
+        }
+    }
+    private fun posterRun(){
+        btnPoster = findViewById(R.id.btn_poster)
+        btnPoster.setOnClickListener{
+            val posterIntent = Intent(this, PosterActivity::class.java)
+            startActivity(posterIntent)
         }
     }
 }
