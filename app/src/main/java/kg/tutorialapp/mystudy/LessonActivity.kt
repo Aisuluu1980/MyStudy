@@ -12,6 +12,7 @@ class LessonActivity : AppCompatActivity() {
 
 //    lateinit var lessonsText: TextView
     lateinit var btn_34:Button
+    lateinit var btn_37: Button
 
 
 
@@ -24,8 +25,18 @@ class LessonActivity : AppCompatActivity() {
 //        findViewById но в больших проектах лучше работать без synthetic
 
         runLesson_34()
+        runLesson_37()
 
     }
+
+    private fun runLesson_37() {
+        btn_37 = findViewById(R.id.btn_37)
+        btn_37.setOnClickListener{
+            val activityArgument = Intent(this, ActivityArguments_37::class.java)
+            startActivity((activityArgument))
+        }
+    }
+
     private fun runLesson_34(){
         btn_34 = findViewById(R.id.btn_34)
         btn_34.setOnClickListener{

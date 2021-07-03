@@ -48,5 +48,6 @@
     <string name="frag_2_text">Fragment #2</string>
     <string name="frag_3_text">Fragment #3</string>
     <string name="fragments">Fragments</string>
-    <string name="btn_37">Занятие 37</string>
+    <string name="btn_37">Занятие 37 Передача аргументов во фрагмент</string>
+    <string name="btn_arguments">Передать</string>
 </resources>
