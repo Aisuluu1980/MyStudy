@@ -12,7 +12,7 @@ class LessonActivity : AppCompatActivity() {
 
 //    lateinit var lessonsText: TextView
     lateinit var btn_34:Button
-    lateinit var btn_36:Button
+
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -24,7 +24,7 @@ class LessonActivity : AppCompatActivity() {
 //        findViewById но в больших проектах лучше работать без synthetic
 
         runLesson_34()
-        runLesson_36()
+
     }
     private fun runLesson_34(){
         btn_34 = findViewById(R.id.btn_34)
@@ -33,12 +33,6 @@ class LessonActivity : AppCompatActivity() {
             startActivity(activityStackIntent)
         }
     }
-    private fun runLesson_36(){
-        btn_36 = findViewById(R.id.btn_36)
-        btn_36.setOnClickListener{
-            val activityFragments = Intent(this, FragmentActivity::class.java )
-            startActivity(activityFragments)
-        }
-    }
+
 
 }

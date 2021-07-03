@@ -13,7 +13,7 @@ class MainActivity : AppCompatActivity() {
     lateinit var textMain: TextView
     lateinit var btnLessons:Button
     lateinit var btnPoster: Button
-
+    lateinit var btnFragments: Button
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
@@ -21,6 +21,7 @@ class MainActivity : AppCompatActivity() {
         lessonsRun()
         gesturesRun()
         posterRun()
+        fragmentsRun()
 
         textMain = findViewById(R.id.text_main)
         textMain.text = getString(R.string.main_text)
@@ -45,6 +46,13 @@ class MainActivity : AppCompatActivity() {
         btnPoster.setOnClickListener{
             val posterIntent = Intent(this, PosterActivity::class.java)
             startActivity(posterIntent)
+        }
+    }
+    private fun fragmentsRun(){
+        btnFragments= findViewById(R.id.btn_36)
+        btnFragments.setOnClickListener{
+            val activityFragments = Intent(this, FragmentActivity::class.java )
+            startActivity(activityFragments)
         }
     }
 }
