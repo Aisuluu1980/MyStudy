@@ -13,6 +13,7 @@ class LessonActivity : AppCompatActivity() {
 //    lateinit var lessonsText: TextView
     lateinit var btn_34:Button
     lateinit var btn_37: Button
+    lateinit var btn_38: Button
 
 
 
@@ -26,7 +27,16 @@ class LessonActivity : AppCompatActivity() {
 
         runLesson_34()
         runLesson_37()
+        runLesson38()
 
+    }
+
+    private fun runLesson38() {
+        btn_38 = findViewById(R.id.btn_38)
+        btn_38.setOnClickListener{
+            val activityLesson38 = Intent(this, Activity_38::class.java)
+            startActivity((activityLesson38))
+        }
     }
 
     private fun runLesson_37() {

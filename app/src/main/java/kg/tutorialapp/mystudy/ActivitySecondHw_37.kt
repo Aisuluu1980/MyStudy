@@ -12,7 +12,7 @@ class ActivitySecondHw_37 : AppCompatActivity(), Fragment37Listerner {
     }
     private fun secondRun() {
 //            достаем текст из нашего поля ввода и переводим в стринг
-        val fromFirstActivity:String = ((intent?.getStringExtra("String")?: showToast()) as String)
+        val fromFirstActivity:String = (intent?.getStringExtra("String")?: showToast())
 /* создаем фрагмент */
         val fragmentData = Fragment_HW37()
 //   передаем аргументы во фрагмент (Ключ-"String" и значение-text)

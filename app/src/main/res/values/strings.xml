@@ -1,4 +1,4 @@
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
     <string name="app_name">MyStudy</string>
     <string name="gestures">Gestures</string>
     <string name="lessons">Lessons</string>
@@ -42,8 +42,8 @@
     <string name="first_fragment">Frag #1</string>
     <string name="second_fragment">Frag #2</string>
     <string name="third_fragment">Frag #3</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
     <string name="frag_1_text"> Fragment# 1</string>
     <string name="frag_2_text">Fragment #2</string>
     <string name="frag_3_text">Fragment #3</string>
@@ -54,4 +54,14 @@
     <string name="ed_text_37">Введите текст</string>
     <string name="btn_done_37">OK</string>
     <string name="btn_hw_37_2">HW 37</string>
+    <string name="btn_38">Урок 38 Коммуникация между двумя фрагментами</string>
+    <string name="title_38__1">FRAGMENT A</string>
+    <string name="title_38_2">FRAGMENT B</string>
+    <string name="btn_38_2">FRAGMENT B</string>
+    <string name="inputText_38_2" />
+    <string name="text_from_a" />
+    <string name="title_38_1">FRAGMENT A</string>
+    <string name="input_text_38_1" />
+    <string name="btn_38_1">Fragment A</string>
+    <string name="text_from_b" />
 </resources>
