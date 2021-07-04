@@ -9,7 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MyStudy">
-        <activity android:name=".ActivityArguments_37"></activity>
+
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -39,19 +39,29 @@
             android:parentActivityName=".LessonActivity" />
         <activity
             android:name=".Activity_36_4"
-            android:parentActivityName=".FragmentActivity"></activity>
+            android:parentActivityName=".FragmentActivity" />
         <activity
             android:name=".Activity_36_3"
-            android:parentActivityName=".FragmentActivity"></activity>
+            android:parentActivityName=".FragmentActivity" />
         <activity
             android:name=".Activity_36_2"
-            android:parentActivityName=".FragmentActivity"></activity>
+            android:parentActivityName=".FragmentActivity" />
         <activity
             android:name=".PosterActivity"
-            android:parentActivityName=".MainActivity"></activity>
+            android:parentActivityName=".MainActivity" />
         <activity
             android:name=".FragmentActivity"
-            android:parentActivityName=".LessonActivity"></activity>
+            android:parentActivityName=".LessonActivity" />
+        <activity
+            android:name=".ActivitySecondHw_37"
+            android:parentActivityName=".Activity_HW37">
+        </activity>
+        <activity android:name=".Activity_HW37"
+            android:parentActivityName=".MainActivity">
+        </activity>
+        <activity android:name=".ActivityArguments_37"
+            android:parentActivityName=".LessonActivity">
+        </activity>
     </application>
 
 </manifest>

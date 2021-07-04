@@ -50,4 +50,8 @@
     <string name="fragments">Fragments</string>
     <string name="btn_37">Занятие 37 Передача аргументов во фрагмент</string>
     <string name="btn_arguments">Передать</string>
+    <string name="btn_hw37">Домашнее задание №37</string>
+    <string name="ed_text_37">Введите текст</string>
+    <string name="btn_done_37">OK</string>
+    <string name="btn_hw_37_2">HW 37</string>
 </resources>

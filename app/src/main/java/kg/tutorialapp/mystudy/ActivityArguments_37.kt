@@ -15,7 +15,6 @@ class ActivityArguments_37 : AppCompatActivity(), Fragment37Listerner {
         setContentView(R.layout.activity_arguments_37)
         setup( )
     }
-
     private fun setup() {
         btnSendArguments = findViewById(R.id.btn_send)
         btnSendArguments.setOnClickListener{
@@ -36,7 +35,8 @@ class ActivityArguments_37 : AppCompatActivity(), Fragment37Listerner {
 
         }
     }
-    override fun showToast(){
-        Toast.makeText(this, "Fragment 37 told me do it", Toast.LENGTH_LONG).show()
+    override fun showToast(): String {
+        val textNew = Toast.makeText(this, "Fragment 37 told me do it", Toast.LENGTH_LONG).show()
+        return textNew.toString()
     }
 }
