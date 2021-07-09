@@ -59,4 +59,11 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
         android:text="@string/btn_hw37" />
+    <Button
+        android:id="@+id/btn_38_hw"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/btn_38_hw" />
 </LinearLayout>

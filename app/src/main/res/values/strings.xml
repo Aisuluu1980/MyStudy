@@ -64,4 +64,15 @@
     <string name="input_text_38_1" />
     <string name="btn_38_1">Fragment A</string>
     <string name="text_from_b" />
+    <string name="title_activity_menu">MenuActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="btn_38_hw">Drawing Navigation</string>
+    <string name="nav_title">Navigation Drawer</string>
+    <string name="nav_text">"Добавьте NavigationDrawer(выдвигающееся меню сбоку, шторка) в приложение. По нажатию на каждый итем(элемент меню) показывать Toast с текстом итема.  "</string>
 </resources>
