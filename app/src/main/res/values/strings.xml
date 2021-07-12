@@ -87,4 +87,14 @@
     <string name="item_eighth">Eighth item</string>
     <string name="item_ninth">Ninth item</string>
     <string name="item_tenth">Tenth item</string>
+    <string name="btn_40_hw">Menu with fragments.</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="fragment_1">Fragment 1</string>
+    <string name="fragment_2">Fragment 2</string>
+    <string name="fragment_3">Fragment 3</string>
+    <string name="fragment_40">Fragments</string>
+    <string name="fragment1">Fragment 1</string>
+    <string name="fragment2">Fragment 2</string>
+    <string name="fragment3">Fragment 3</string>
 </resources>

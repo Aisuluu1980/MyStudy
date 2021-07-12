@@ -17,6 +17,7 @@ class MainActivity : AppCompatActivity() {
     lateinit var btn_hw37: Button
     lateinit var btn_hw_38: Button
     lateinit var btn_hw_39: Button
+    lateinit var btn_hw_40: Button
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -29,7 +30,7 @@ class MainActivity : AppCompatActivity() {
         hwRun37()
         hwRun38()
         hwRun39()
-
+        hwRun40()
 
         textMain = findViewById(R.id.text_main)
         textMain.text = getString(R.string.main_text)
@@ -85,6 +86,13 @@ class MainActivity : AppCompatActivity() {
         btn_hw_39.setOnClickListener {
             val hwScroll = Intent(this, ActivityScrolling::class.java)
             startActivity(hwScroll)
+        }
+    }
+    private fun hwRun40() {
+        btn_hw_40 = findViewById(R.id.btn_40_hw)
+        btn_hw_40.setOnClickListener {
+            val hwMenuFragments = Intent(this, ActivityFragments_40::class.java)
+            startActivity(hwMenuFragments)
         }
     }
 
