@@ -75,4 +75,16 @@
     <string name="btn_38_hw">Drawing Navigation</string>
     <string name="nav_title">Navigation Drawer</string>
     <string name="nav_text">"Добавьте NavigationDrawer(выдвигающееся меню сбоку, шторка) в приложение. По нажатию на каждый итем(элемент меню) показывать Toast с текстом итема.  "</string>
+    <string name="btn_39_hw">Scrolling Bar</string>
+    <string name="scroll_text">Homework #39 Scrolling Bar</string>
+    <string name="item_first">First item</string>
+    <string name="item_second">Second item</string>
+    <string name="item_third">Third item</string>
+    <string name="item_fourth">Fourth item</string>
+    <string name="item_fifth">Fifth item</string>
+    <string name="item_sixth">Sixth item</string>
+    <string name="item_seventh">Seventh item</string>
+    <string name="item_eighth">Eighth item</string>
+    <string name="item_ninth">Ninth item</string>
+    <string name="item_tenth">Tenth item</string>
 </resources>

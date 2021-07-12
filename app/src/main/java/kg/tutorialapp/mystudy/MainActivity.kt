@@ -16,6 +16,8 @@ class MainActivity : AppCompatActivity() {
     lateinit var btnFragments: Button
     lateinit var btn_hw37: Button
     lateinit var btn_hw_38: Button
+    lateinit var btn_hw_39: Button
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
@@ -26,14 +28,13 @@ class MainActivity : AppCompatActivity() {
         fragmentsRun()
         hwRun37()
         hwRun38()
+        hwRun39()
 
 
         textMain = findViewById(R.id.text_main)
         textMain.text = getString(R.string.main_text)
 
     }
-
-
 
 
     private fun lessonsRun(){
@@ -78,6 +79,13 @@ class MainActivity : AppCompatActivity() {
             val hwMenu = Intent(this, ActivityMenu::class.java)
             startActivity(hwMenu)
         }
-
     }
+    private fun hwRun39() {
+        btn_hw_39 = findViewById(R.id.btn_39_hw)
+        btn_hw_39.setOnClickListener {
+            val hwScroll = Intent(this, ActivityScrolling::class.java)
+            startActivity(hwScroll)
+        }
+    }
+
 }
